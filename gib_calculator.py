@@ -91,3 +91,7 @@ if choice == 2:
     conversion = (b_amount * bytes)/bytes2
 
     print(f"{b_amount} {fir_uchoice} is equal to {conversion:.3f} {sec_uchoice}")
+
+if not choice == 2 or choice == 1:
+    print("Choose option 1 or 2 and try again!")
+    exit()
